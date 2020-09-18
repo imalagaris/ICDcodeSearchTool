@@ -4,7 +4,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-// aek
+
 namespace ICDcodeSearchTool
 {
     public partial class Form1 : Form
@@ -20,15 +20,13 @@ namespace ICDcodeSearchTool
             InitializeComponent();
 
             GridView.ColumnHeadersDefaultCellStyle.Font = new Font(Font, FontStyle.Bold);
-            GridView.ColumnCount = 4;
-            GridView.Columns[0].Width = 60;
-            GridView.Columns[1].Width = 55;
-            GridView.Columns[2].Width = 85;
-            GridView.Columns[3].Width = 545;
-            GridView.Columns[0].Name = GridView.Columns[0].DataPropertyName = "ID";
-            GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "Type";
-            GridView.Columns[2].Name = GridView.Columns[2].DataPropertyName = "ICD10";
-            GridView.Columns[3].Name = GridView.Columns[3].DataPropertyName = "Description";
+            GridView.ColumnCount = 3;
+            GridView.Columns[0].Width = 55;
+            GridView.Columns[1].Width = 85;
+            GridView.Columns[2].Width = 545;
+            GridView.Columns[0].Name = GridView.Columns[0].DataPropertyName = "Type";
+            GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "ICD10";
+            GridView.Columns[2].Name = GridView.Columns[2].DataPropertyName = "Description";
             GridView.AutoGenerateColumns = false;
             GridView.RowTemplate.Height = Font.Height + 3;
             GridView.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
@@ -294,7 +292,7 @@ namespace ICDcodeSearchTool
         }
         private void Load_Click(object sender, EventArgs e)
         {
-            string infile = @"C:\Users\iomalaga\Google Drive\ps\ICD10.txt";
+            string infile = @"C:\Users\iomalaga\Google Drive\postDoc\ICD10desc2020\icd10cm_order_2020.txt";
             icd10 = DataReader.Read(infile);
             icd10.CaseSensitive = false;
             view = new DataView(icd10);
