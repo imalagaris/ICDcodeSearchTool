@@ -1,0 +1,10 @@
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\bin\Debug\ICDcodeSearchTool.exe.config
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\bin\Debug\ICDcodeSearchTool.exe
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\bin\Debug\ICDcodeSearchTool.pdb
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.csprojAssemblyReference.cache
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.Form1.resources
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.Properties.Resources.resources
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.csproj.GenerateResource.cache
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.csproj.CoreCompileInputs.cache
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.exe
+C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Debug\ICDcodeSearchTool.pdb

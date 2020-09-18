@@ -1,0 +1,10 @@
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.Form1.resources
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10v0._2.Properties.Resources.resources
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10v0.2.csproj.GenerateResource.cache
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10v0.2.csproj.CoreCompileInputs.cache
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\WindowsApplication.exe.config
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\WindowsApplication.exe
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\WindowsApplication.pdb
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\WindowsApplication.exe
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\WindowsApplication.pdb
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10v0.2.csprojAssemblyReference.cache

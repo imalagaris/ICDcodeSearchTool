@@ -1,0 +1,30 @@
+C:\Users\iomalaga\source\repos\icd10\bin\Debug\icd10.exe.config
+C:\Users\iomalaga\source\repos\icd10\bin\Debug\icd10.exe
+C:\Users\iomalaga\source\repos\icd10\bin\Debug\icd10.pdb
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.csprojAssemblyReference.cache
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.Form1.resources
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.Properties.Resources.resources
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.csproj.GenerateResource.cache
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.csproj.CoreCompileInputs.cache
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.exe
+C:\Users\iomalaga\source\repos\icd10\obj\Debug\icd10.pdb
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\icd10.exe.config
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\icd10.exe
+C:\Users\iomalaga\Google Drive\source\repos\icd10\bin\Debug\icd10.pdb
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.csprojAssemblyReference.cache
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.Form1.resources
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.Properties.Resources.resources
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.csproj.GenerateResource.cache
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.csproj.CoreCompileInputs.cache
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.exe
+C:\Users\iomalaga\Google Drive\source\repos\icd10\obj\Debug\icd10.pdb
+C:\Users\iomalaga\Desktop\icd10\bin\Debug\icd.exe.config
+C:\Users\iomalaga\Desktop\icd10\bin\Debug\icd.exe
+C:\Users\iomalaga\Desktop\icd10\bin\Debug\icd.pdb
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd10.csprojAssemblyReference.cache
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd10.Form1.resources
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd.Properties.Resources.resources
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd10.csproj.GenerateResource.cache
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd10.csproj.CoreCompileInputs.cache
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd.exe
+C:\Users\iomalaga\Desktop\icd10\obj\Debug\icd.pdb
