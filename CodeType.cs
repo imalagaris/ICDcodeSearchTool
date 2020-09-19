@@ -17,6 +17,10 @@ namespace ICDcodeSearchTool {
         public string Name { get; set; }
         public string End { get; set; }
     }
+    public class ChooseFile {
+        public string Val { get; set; }
+        public string Name { get; set; }
+    }
     public class Codes {
         public List<CodeOperator> Data1;
         public List<CodeOperator> Data2;
@@ -50,6 +54,21 @@ namespace ICDcodeSearchTool {
                 new DescOperator() {Start = " AND Description LIKE '*",     Name = "AND",     End = "*'"},
                 new DescOperator() {Start = " OR Description LIKE '*",      Name = "OR",      End = "*'"},
                 new DescOperator() {Start = " AND Description NOT LIKE '*", Name = "AND NOT", End = "*'"}
+            };
+        }
+    }
+    public class ChFiles
+    {
+        public List<ChooseFile> Data;
+        public ChFiles()
+        {
+            Data = new List<ChooseFile>()
+            {
+                new ChooseFile() {Val = "", Name = "   Choose file"},
+                new ChooseFile() {Val = @"Data\icd10cm_order_2021.txt",  Name = "ICD-10-CM  2021"},
+                new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-10-PCS 2021"},
+                new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-9-CM  2014"},
+                new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-9-PCS 2014"}
             };
         }
     }

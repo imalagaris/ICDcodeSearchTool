@@ -81,17 +81,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.combo10 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -110,7 +108,6 @@
             this.pan7.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // GridView
@@ -136,14 +133,14 @@
             this.GridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.GridView.ShowCellErrors = false;
             this.GridView.ShowRowErrors = false;
-            this.GridView.Size = new System.Drawing.Size(771, 774);
+            this.GridView.Size = new System.Drawing.Size(719, 774);
             this.GridView.TabIndex = 0;
             this.GridView.Scroll += new System.Windows.Forms.ScrollEventHandler(this.GridView_Scroll);
             this.GridView.DoubleClick += new System.EventHandler(this.GridView_DoubleClick);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(287, 14);
+            this.button1.Location = new System.Drawing.Point(317, 14);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(65, 30);
@@ -169,9 +166,9 @@
             this.combo5.Enabled = false;
             this.combo5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo5.FormattingEnabled = true;
-            this.combo5.Location = new System.Drawing.Point(21, 5);
+            this.combo5.Location = new System.Drawing.Point(25, 4);
             this.combo5.Name = "combo5";
-            this.combo5.Size = new System.Drawing.Size(102, 25);
+            this.combo5.Size = new System.Drawing.Size(108, 25);
             this.combo5.TabIndex = 6;
             // 
             // panel1
@@ -181,9 +178,9 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(866, 13);
+            this.panel1.Location = new System.Drawing.Point(835, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(386, 526);
+            this.panel1.Size = new System.Drawing.Size(417, 526);
             this.panel1.TabIndex = 8;
             // 
             // panel2
@@ -196,7 +193,7 @@
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Location = new System.Drawing.Point(36, 45);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(316, 463);
+            this.panel2.Size = new System.Drawing.Size(346, 463);
             this.panel2.TabIndex = 12;
             // 
             // groupBox2
@@ -209,7 +206,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(3, 389);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(304, 64);
+            this.groupBox2.Size = new System.Drawing.Size(336, 64);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ICD10 range";
@@ -263,7 +260,7 @@
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(304, 64);
+            this.groupBox4.Size = new System.Drawing.Size(336, 64);
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Flag";
@@ -275,7 +272,7 @@
             this.pan5.Location = new System.Drawing.Point(6, 24);
             this.pan5.Margin = new System.Windows.Forms.Padding(1);
             this.pan5.Name = "pan5";
-            this.pan5.Size = new System.Drawing.Size(166, 34);
+            this.pan5.Size = new System.Drawing.Size(179, 34);
             this.pan5.TabIndex = 15;
             // 
             // checkBox5
@@ -298,7 +295,7 @@
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(3, 72);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(304, 144);
+            this.groupBox3.Size = new System.Drawing.Size(336, 144);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ICD10";
@@ -311,7 +308,7 @@
             this.pan4.Location = new System.Drawing.Point(6, 104);
             this.pan4.Margin = new System.Windows.Forms.Padding(1);
             this.pan4.Name = "pan4";
-            this.pan4.Size = new System.Drawing.Size(285, 30);
+            this.pan4.Size = new System.Drawing.Size(315, 30);
             this.pan4.TabIndex = 15;
             this.pan4.Visible = false;
             // 
@@ -329,7 +326,7 @@
             // 
             this.txt4.Enabled = false;
             this.txt4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt4.Location = new System.Drawing.Point(193, 3);
+            this.txt4.Location = new System.Drawing.Point(214, 3);
             this.txt4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt4.Name = "txt4";
             this.txt4.Size = new System.Drawing.Size(79, 26);
@@ -343,7 +340,7 @@
             this.combo4.FormattingEnabled = true;
             this.combo4.Location = new System.Drawing.Point(25, 4);
             this.combo4.Name = "combo4";
-            this.combo4.Size = new System.Drawing.Size(158, 25);
+            this.combo4.Size = new System.Drawing.Size(183, 25);
             this.combo4.TabIndex = 11;
             // 
             // pan3
@@ -354,7 +351,7 @@
             this.pan3.Location = new System.Drawing.Point(6, 76);
             this.pan3.Margin = new System.Windows.Forms.Padding(1);
             this.pan3.Name = "pan3";
-            this.pan3.Size = new System.Drawing.Size(285, 30);
+            this.pan3.Size = new System.Drawing.Size(315, 30);
             this.pan3.TabIndex = 15;
             this.pan3.Visible = false;
             // 
@@ -372,7 +369,7 @@
             // 
             this.txt3.Enabled = false;
             this.txt3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt3.Location = new System.Drawing.Point(193, 3);
+            this.txt3.Location = new System.Drawing.Point(214, 3);
             this.txt3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(79, 26);
@@ -386,7 +383,7 @@
             this.combo3.FormattingEnabled = true;
             this.combo3.Location = new System.Drawing.Point(25, 4);
             this.combo3.Name = "combo3";
-            this.combo3.Size = new System.Drawing.Size(158, 25);
+            this.combo3.Size = new System.Drawing.Size(183, 25);
             this.combo3.TabIndex = 11;
             // 
             // pan2
@@ -397,7 +394,7 @@
             this.pan2.Location = new System.Drawing.Point(6, 48);
             this.pan2.Margin = new System.Windows.Forms.Padding(1);
             this.pan2.Name = "pan2";
-            this.pan2.Size = new System.Drawing.Size(285, 30);
+            this.pan2.Size = new System.Drawing.Size(315, 30);
             this.pan2.TabIndex = 15;
             this.pan2.Visible = false;
             // 
@@ -405,7 +402,7 @@
             // 
             this.txt2.Enabled = false;
             this.txt2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt2.Location = new System.Drawing.Point(193, 3);
+            this.txt2.Location = new System.Drawing.Point(214, 3);
             this.txt2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(79, 26);
@@ -429,7 +426,7 @@
             this.combo2.FormattingEnabled = true;
             this.combo2.Location = new System.Drawing.Point(25, 4);
             this.combo2.Name = "combo2";
-            this.combo2.Size = new System.Drawing.Size(158, 25);
+            this.combo2.Size = new System.Drawing.Size(183, 25);
             this.combo2.TabIndex = 11;
             // 
             // pan1
@@ -440,14 +437,14 @@
             this.pan1.Location = new System.Drawing.Point(6, 20);
             this.pan1.Margin = new System.Windows.Forms.Padding(1);
             this.pan1.Name = "pan1";
-            this.pan1.Size = new System.Drawing.Size(285, 30);
+            this.pan1.Size = new System.Drawing.Size(315, 30);
             this.pan1.TabIndex = 15;
             // 
             // txt1
             // 
             this.txt1.Enabled = false;
             this.txt1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1.Location = new System.Drawing.Point(193, 2);
+            this.txt1.Location = new System.Drawing.Point(214, 2);
             this.txt1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(79, 26);
@@ -462,7 +459,7 @@
             this.combo1.FormattingEnabled = true;
             this.combo1.Location = new System.Drawing.Point(25, 3);
             this.combo1.Name = "combo1";
-            this.combo1.Size = new System.Drawing.Size(158, 25);
+            this.combo1.Size = new System.Drawing.Size(183, 25);
             this.combo1.TabIndex = 11;
             // 
             // checkBox1
@@ -486,7 +483,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 221);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(304, 163);
+            this.groupBox1.Size = new System.Drawing.Size(336, 163);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Description";
@@ -499,7 +496,7 @@
             this.pan6.Location = new System.Drawing.Point(6, 29);
             this.pan6.Margin = new System.Windows.Forms.Padding(1);
             this.pan6.Name = "pan6";
-            this.pan6.Size = new System.Drawing.Size(285, 30);
+            this.pan6.Size = new System.Drawing.Size(315, 30);
             this.pan6.TabIndex = 13;
             // 
             // checkBox6
@@ -526,7 +523,7 @@
             this.combo6.Location = new System.Drawing.Point(25, 3);
             this.combo6.Margin = new System.Windows.Forms.Padding(1);
             this.combo6.Name = "combo6";
-            this.combo6.Size = new System.Drawing.Size(85, 25);
+            this.combo6.Size = new System.Drawing.Size(86, 25);
             this.combo6.TabIndex = 6;
             // 
             // txt6
@@ -536,7 +533,7 @@
             this.txt6.Location = new System.Drawing.Point(119, 3);
             this.txt6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(153, 25);
+            this.txt6.Size = new System.Drawing.Size(174, 25);
             this.txt6.TabIndex = 4;
             // 
             // label2
@@ -557,7 +554,7 @@
             this.pan9.Location = new System.Drawing.Point(6, 123);
             this.pan9.Margin = new System.Windows.Forms.Padding(1);
             this.pan9.Name = "pan9";
-            this.pan9.Size = new System.Drawing.Size(285, 30);
+            this.pan9.Size = new System.Drawing.Size(315, 30);
             this.pan9.TabIndex = 11;
             this.pan9.Visible = false;
             // 
@@ -578,7 +575,7 @@
             this.txt9.Location = new System.Drawing.Point(119, 3);
             this.txt9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt9.Name = "txt9";
-            this.txt9.Size = new System.Drawing.Size(153, 25);
+            this.txt9.Size = new System.Drawing.Size(174, 25);
             this.txt9.TabIndex = 4;
             // 
             // combo9
@@ -590,7 +587,7 @@
             this.combo9.Location = new System.Drawing.Point(25, 3);
             this.combo9.Margin = new System.Windows.Forms.Padding(1);
             this.combo9.Name = "combo9";
-            this.combo9.Size = new System.Drawing.Size(85, 25);
+            this.combo9.Size = new System.Drawing.Size(86, 25);
             this.combo9.TabIndex = 6;
             // 
             // pan8
@@ -601,7 +598,7 @@
             this.pan8.Location = new System.Drawing.Point(6, 92);
             this.pan8.Margin = new System.Windows.Forms.Padding(1);
             this.pan8.Name = "pan8";
-            this.pan8.Size = new System.Drawing.Size(285, 30);
+            this.pan8.Size = new System.Drawing.Size(315, 30);
             this.pan8.TabIndex = 11;
             this.pan8.Visible = false;
             // 
@@ -612,7 +609,7 @@
             this.txt8.Location = new System.Drawing.Point(119, 3);
             this.txt8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt8.Name = "txt8";
-            this.txt8.Size = new System.Drawing.Size(153, 25);
+            this.txt8.Size = new System.Drawing.Size(174, 25);
             this.txt8.TabIndex = 4;
             // 
             // checkBox8
@@ -634,7 +631,7 @@
             this.combo8.Location = new System.Drawing.Point(25, 3);
             this.combo8.Margin = new System.Windows.Forms.Padding(1);
             this.combo8.Name = "combo8";
-            this.combo8.Size = new System.Drawing.Size(85, 25);
+            this.combo8.Size = new System.Drawing.Size(86, 25);
             this.combo8.TabIndex = 6;
             // 
             // pan7
@@ -645,7 +642,7 @@
             this.pan7.Location = new System.Drawing.Point(6, 61);
             this.pan7.Margin = new System.Windows.Forms.Padding(1);
             this.pan7.Name = "pan7";
-            this.pan7.Size = new System.Drawing.Size(285, 30);
+            this.pan7.Size = new System.Drawing.Size(315, 30);
             this.pan7.TabIndex = 11;
             this.pan7.Visible = false;
             // 
@@ -656,7 +653,7 @@
             this.txt7.Location = new System.Drawing.Point(119, 3);
             this.txt7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(153, 25);
+            this.txt7.Size = new System.Drawing.Size(174, 25);
             this.txt7.TabIndex = 4;
             // 
             // combo7
@@ -668,7 +665,7 @@
             this.combo7.Location = new System.Drawing.Point(25, 3);
             this.combo7.Margin = new System.Windows.Forms.Padding(1);
             this.combo7.Name = "combo7";
-            this.combo7.Size = new System.Drawing.Size(85, 25);
+            this.combo7.Size = new System.Drawing.Size(86, 25);
             this.combo7.TabIndex = 6;
             // 
             // checkBox7
@@ -694,17 +691,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 16);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(254, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 25);
+            this.label1.Size = new System.Drawing.Size(78, 25);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Table of ICD10 diagnosis codes";
+            this.label1.Text = "Table of";
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.combo10);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.textBox6);
             this.panel5.Controls.Add(this.button6);
@@ -715,8 +713,45 @@
             this.panel5.Controls.Add(this.label1);
             this.panel5.Location = new System.Drawing.Point(14, 13);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(835, 865);
+            this.panel5.Size = new System.Drawing.Size(790, 865);
             this.panel5.TabIndex = 11;
+            // 
+            // combo10
+            // 
+            this.combo10.BackColor = System.Drawing.Color.White;
+            this.combo10.Font = new System.Drawing.Font("Consolas", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo10.FormattingEnabled = true;
+            this.combo10.Location = new System.Drawing.Point(335, 10);
+            this.combo10.Name = "combo10";
+            this.combo10.Size = new System.Drawing.Size(157, 26);
+            this.combo10.TabIndex = 16;
+            this.combo10.Text = "Choose file";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label4.Location = new System.Drawing.Point(647, 827);
+            this.label4.Name = "label4";
+            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label4.Size = new System.Drawing.Size(102, 21);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "entries found";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.White;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(579, 828);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(65, 20);
+            this.textBox6.TabIndex = 14;
+            this.textBox6.Text = "0";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button6
             // 
@@ -730,7 +765,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(741, 12);
+            this.button5.Location = new System.Drawing.Point(499, 10);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 29);
             this.button5.TabIndex = 12;
@@ -753,7 +788,6 @@
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.panel1);
@@ -762,100 +796,34 @@
             this.panel3.Size = new System.Drawing.Size(1274, 901);
             this.panel3.TabIndex = 12;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.Controls.Add(this.textBox4);
-            this.panel4.Controls.Add(this.textBox3);
-            this.panel4.Location = new System.Drawing.Point(871, 671);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(348, 92);
-            this.panel4.TabIndex = 14;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.Silver;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(82, 1);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(246, 90);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "- Enumeration of search results\r\n- Unique \"order number\"\r\n- Headers (Flag = 0) ar" +
-    "e not valid codes\r\n- ICD10-CM code\r\n- Long description";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.Silver;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(1, 1);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(81, 88);
-            this.textBox3.TabIndex = 13;
-            this.textBox3.Text = "Sr\r\nID\r\nFlag\r\nICD10\r\nDescription";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(866, 579);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(386, 187);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "NOTES\r\nSearch is case insensitive\r\nDouble-click row\'s lower border to reveal long" +
-    "  descriptions\r\n\r\nColumn description";
-            // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(845, 850);
+            this.textBox1.Location = new System.Drawing.Point(835, 829);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox1.Size = new System.Drawing.Size(418, 49);
             this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "ICD10-CM diagnosis codes search tool V0.2\r\nDeveloped by Ioannis Malagaris\r\nData s" +
-    "ource: https://www.cms.gov/Medicare/Coding/ICD10/2020-ICD-10-CM";
+            this.textBox1.Text = "ICD-9 and ICD-10 diagnosis and procedure codes search tool V0.2\r\nDeveloped by Ioa" +
+    "nnis Malagaris\r\nData source: https://www.cms.gov/Medicare/Coding";
             // 
-            // textBox6
+            // textBox2
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(635, 828);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(65, 20);
-            this.textBox6.TabIndex = 14;
-            this.textBox6.Text = "0";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label4.Location = new System.Drawing.Point(703, 827);
-            this.label4.Name = "label4";
-            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label4.Size = new System.Drawing.Size(102, 21);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "entries found";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(873, 553);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(346, 66);
+            this.textBox2.TabIndex = 13;
+            this.textBox2.Text = "NOTES\r\n - Search is  not case sensitive\r\n - ICD-10 codes with \"Flag = 0\" are head" +
+    "er codes";
             // 
             // Form1
             // 
@@ -903,8 +871,6 @@
             this.panel5.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -959,20 +925,18 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txt11;
         private System.Windows.Forms.TextBox txt10;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView GridView;
+        private System.Windows.Forms.ComboBox combo10;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

@@ -9,34 +9,31 @@ namespace ICDcodeSearchTool
 {
     public partial class Form1 : Form
     {
-        public DataTable icd10;
+        public DataSet aek;
         public DataView view;
         public List<CodeOperator> genCode1;
         public List<CodeOperator> genCode2;
         public List<CodeType> genType;
         public List<DescOperator> genDesc;
+        public List<ChooseFile> genFile;
         public Form1()
         {
             InitializeComponent();
-
-            GridView.ColumnHeadersDefaultCellStyle.Font = new Font(Font, FontStyle.Bold);
-            GridView.ColumnCount = 3;
-            GridView.Columns[0].Width = 55;
-            GridView.Columns[1].Width = 85;
-            GridView.Columns[2].Width = 545;
-            GridView.Columns[0].Name = GridView.Columns[0].DataPropertyName = "Type";
-            GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "ICD10";
-            GridView.Columns[2].Name = GridView.Columns[2].DataPropertyName = "Description";
-            GridView.AutoGenerateColumns = false;
-            GridView.RowTemplate.Height = Font.Height + 3;
-            GridView.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
-
-            //GridView.RowTemplate.Height = Font.Height + 4;
+            aek = new DataSet();
+            DataTable icd10cm = DataReader.Read10(@"Data\icd10cm_order_2021.txt");
+            DataTable icd10pcs = DataReader.Read10(@"Data\icd10pcs_order_2021.txt");
+            DataTable icd9cm = DataReader.Read9(@"Data\CMS32_DESC_LONG_DX.txt", true);
+            DataTable icd9pcs = DataReader.Read9(@"Data\CMS32_DESC_LONG_SG.txt", false);
+            aek.Tables.Add(icd10cm);
+            aek.Tables.Add(icd10pcs);
+            aek.Tables.Add(icd9cm);
+            aek.Tables.Add(icd9pcs);
 
             genCode1 = (new Codes()).Data1;
             genCode2 = (new Codes()).Data2;
             genType = (new Types()).Data;
             genDesc = (new Descs()).Data;
+            genFile = (new ChFiles()).Data;
 
             combo1.DisplayMember = "Name";
             combo1.DataSource = genCode1;
@@ -55,6 +52,40 @@ namespace ICDcodeSearchTool
             combo8.DataSource = (new Descs()).Data;
             combo9.DataSource = (new Descs()).Data;
 
+            combo10.DisplayMember = "Name";
+            combo10.ValueMember = "Val";
+            combo10.DataSource = (new ChFiles()).Data;
+            
+            GridView.ColumnHeadersDefaultCellStyle.Font = new Font(Font, FontStyle.Bold);
+            GridView.RowTemplate.Height = Font.Height + 3;
+            GridView.AutoGenerateColumns = false;
+            GridView.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+        }
+        private void GridStyle10()
+        {
+            GridView.DataSource = null;
+            GridView.ColumnCount = 3;
+            GridView.Columns[0].Width = 55;
+            GridView.Columns[1].Width = 85;
+            GridView.Columns[2].Width = 545;
+            GridView.Columns[0].Name = GridView.Columns[0].DataPropertyName = "Type";
+            GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "ICD10";
+            GridView.Columns[2].Name = GridView.Columns[2].DataPropertyName = "Description";
+            checkBox5.Enabled = combo6.Enabled = true;
+            pan5.BackColor = groupBox4.BackColor = Color.White;
+        }
+        private void GridStyle9()
+        {
+            GridView.DataSource = null;
+            GridView.ColumnCount = 2;
+            GridView.Columns[0].Width = 100;
+            GridView.Columns[1].Width = 575;
+            GridView.Columns[0].Name = "ICD9";
+            GridView.Columns[0].DataPropertyName = "ICD10";
+            GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "Description";
+            checkBox5.Enabled = checkBox5.Checked = false;
+            pan5.BackColor = groupBox4.BackColor = Color.Gainsboro;
+            DisableCombo(combo5);
         }
         private void SetRowNumber(DataGridView dgv)
         {
@@ -292,12 +323,18 @@ namespace ICDcodeSearchTool
         }
         private void Load_Click(object sender, EventArgs e)
         {
-            string infile = @"C:\Users\iomalaga\Google Drive\postDoc\ICD10desc2020\icd10cm_order_2020.txt";
-            icd10 = DataReader.Read(infile);
-            icd10.CaseSensitive = false;
-            view = new DataView(icd10);
-            GridView.DataSource = view;
-            textBox6.Text = view.Count.ToString();
+            int k = combo10.SelectedIndex;
+            if (k == 0)
+            {
+                MessageBox.Show("Please select file to load");
+            }
+            else
+            {
+                view = new DataView(aek.Tables[k - 1]);
+                if (k > 2) { GridStyle9(); } else { GridStyle10(); }
+                GridView.DataSource = view;
+                textBox6.Text = view.Count.ToString();
+            }
         }
         private void button6_Click(object sender, EventArgs e)
         {
