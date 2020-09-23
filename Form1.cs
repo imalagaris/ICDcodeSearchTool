@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ICDcodeSearchTool
@@ -28,6 +29,7 @@ namespace ICDcodeSearchTool
             aek.Tables.Add(icd10pcs);
             aek.Tables.Add(icd9cm);
             aek.Tables.Add(icd9pcs);
+            view = null;
 
             genCode1 = (new Codes()).Data1;
             genCode2 = (new Codes()).Data2;
@@ -72,7 +74,7 @@ namespace ICDcodeSearchTool
             GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "ICD10";
             GridView.Columns[2].Name = GridView.Columns[2].DataPropertyName = "Description";
             checkBox5.Enabled = combo6.Enabled = true;
-            pan5.BackColor = groupBox4.BackColor = Color.White;
+            groupBox2.BackColor = Color.White;
         }
         private void GridStyle9()
         {
@@ -84,8 +86,10 @@ namespace ICDcodeSearchTool
             GridView.Columns[0].DataPropertyName = "ICD10";
             GridView.Columns[1].Name = GridView.Columns[1].DataPropertyName = "Description";
             checkBox5.Enabled = checkBox5.Checked = false;
-            pan5.BackColor = groupBox4.BackColor = Color.Gainsboro;
-            DisableCombo(combo5);
+            combo5.Enabled = false;
+            combo5.SelectedIndex = 0;
+            groupBox2.BackColor = Color.Gainsboro;
+
         }
         private void SetRowNumber(DataGridView dgv)
         {
@@ -107,49 +111,66 @@ namespace ICDcodeSearchTool
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked) {
-                txt1.Enabled = combo1.Enabled = pan2.Visible = true;
+                txt1.Enabled = combo1.Enabled = true;
+                checkBox2.Visible = txt2.Visible = combo2.Visible = true;
             }
             else {
-                DisableTxt(txt1);
-                DisableTxt(txt2);
-                DisableTxt(txt3);
-                DisableTxt(txt4);
-                DisableCombo(combo1);
-                DisableCombo(combo2);
-                DisableCombo(combo3);
-                DisableCombo(combo4);
-                checkBox2.Checked = checkBox3.Checked = checkBox4.Checked = false;
-                pan2.Visible = pan3.Visible = pan4.Visible = false;
+                DisableControls(checkBox1);
+            }
+        }
+        private void DisableControls(CheckBox check)
+        {
+            TableLayoutPanel par = (TableLayoutPanel)check.Parent;
+            int i = par.Controls.IndexOf(check);
+
+            foreach (var combo in par.Controls.OfType<ComboBox>())
+            {
+                int j = par.Controls.IndexOf(combo);
+                if (j > i)
+                {
+                    combo.SelectedIndex = 0;
+                    combo.Enabled = false;
+                    if ( j > i + 2) { combo.Visible = false; }
+                }
+            }
+            foreach (var txt in par.Controls.OfType<TextBox>())
+            {
+                int j = par.Controls.IndexOf(txt);
+                if (j > i)
+                {
+                    txt.Text = string.Empty;
+                    txt.Enabled = false;
+                    if ( j > i + 2) { txt.Visible = false; }
+
+                }
+            }
+            foreach (var ch in par.Controls.OfType<CheckBox>())
+            {
+                int j = par.Controls.IndexOf(ch);
+                if (j > i)
+                {
+                    ch.Checked = ch.Visible = false;
+                }
             }
         }
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox2.Checked) {
-                txt2.Enabled = combo2.Enabled = pan3.Visible = true;
+                txt2.Enabled = combo2.Enabled = true;
+                checkBox3.Visible = txt3.Visible = combo3.Visible = true;
             }
             else {
-                DisableTxt(txt2);
-                DisableTxt(txt3);
-                DisableTxt(txt4);
-                DisableCombo(combo2);
-                DisableCombo(combo3);
-                DisableCombo(combo4);
-                checkBox3.Checked = checkBox4.Checked = false;
-                pan3.Visible = pan4.Visible = false;
+                DisableControls(checkBox2);
             }
         }
         private void CheckBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox3.Checked) {
-                txt3.Enabled = combo3.Enabled = pan4.Visible = true;
+                txt3.Enabled = combo3.Enabled = true;
+                checkBox4.Visible = txt4.Visible = combo4.Visible = true;
             }
             else {
-                DisableTxt(txt3);
-                DisableTxt(txt4);
-                DisableCombo(combo3);
-                DisableCombo(combo4);
-                checkBox4.Checked = false;
-                pan4.Visible = false;
+                DisableControls(checkBox3);
             }
         }
         private void CheckBox4_CheckedChanged(object sender, EventArgs e)
@@ -158,8 +179,7 @@ namespace ICDcodeSearchTool
                 txt4.Enabled = combo4.Enabled = true;
             }
             else {
-                DisableTxt(txt4);
-                DisableCombo(combo4);
+                DisableControls(checkBox4);
             }
         }
         private void CheckBox5_CheckedChanged(object sender, EventArgs e)
@@ -173,47 +193,31 @@ namespace ICDcodeSearchTool
         private void CheckBox6_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox6.Checked) {
-                txt6.Enabled = combo6.Enabled = pan7.Visible = true;
+                txt6.Enabled = combo6.Enabled = true;
+                checkBox7.Visible = txt7.Visible = combo7.Visible = true;
             }
             else {
-                DisableTxt(txt6);
-                DisableTxt(txt7);
-                DisableTxt(txt8);
-                DisableTxt(txt9);
-                DisableCombo(combo6);
-                DisableCombo(combo7);
-                DisableCombo(combo8);
-                DisableCombo(combo9);
-                checkBox7.Checked = checkBox8.Checked = checkBox9.Checked = false;
-                pan7.Visible = pan8.Visible = pan9.Visible = false;
+                DisableControls(checkBox6);
             }
         }
         private void CheckBox7_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox7.Checked) {
-                txt7.Enabled = combo7.Enabled = pan8.Visible = true;
+                txt7.Enabled = combo7.Enabled = true;
+                checkBox8.Visible = txt8.Visible = combo8.Visible = true;
             }
             else {
-                DisableTxt(txt7);
-                DisableTxt(txt8);
-                DisableTxt(txt9);
-                DisableCombo(combo7);
-                DisableCombo(combo8);
-                DisableCombo(combo9);
-                checkBox8.Checked = checkBox9.Checked = pan8.Visible = pan9.Visible = false;
+                DisableControls(checkBox7);
             }
         }
         private void CheckBox8_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox8.Checked) {
-                txt8.Enabled = combo8.Enabled = pan9.Visible = true;
+                txt8.Enabled = combo8.Enabled = true;
+                checkBox9.Visible = txt9.Visible = combo9.Visible = true;
             }
             else {
-                DisableTxt(txt8);
-                DisableTxt(txt9);
-                DisableCombo(combo8);
-                DisableCombo(combo9);
-                checkBox9.Checked = pan9.Visible = false;
+                DisableControls(checkBox8);
             }
         }
         private void CheckBox9_CheckedChanged(object sender, EventArgs e)
@@ -222,8 +226,7 @@ namespace ICDcodeSearchTool
                 txt9.Enabled = combo9.Enabled = true;
             }
             else {
-                DisableTxt(txt9);
-                DisableCombo(combo9);
+                DisableControls(checkBox9);
             }
         }
         private void CheckBox10_CheckedChanged(object sender, EventArgs e)
@@ -251,6 +254,11 @@ namespace ICDcodeSearchTool
         }
         private void Apply_Click(object sender, EventArgs e)
         {
+            if (view == null) 
+            {
+                MessageBox.Show("Load a file before applying a filter");
+                return; 
+            }
             bool ch1 = (checkBox1.Checked & txt1.Text.Length > 0);
             bool ch10 = (checkBox10.Checked & txt10.Text.Length > 0 & txt11.Text.Length > 0);
             bool ch2 = checkBox5.Checked;
@@ -318,8 +326,7 @@ namespace ICDcodeSearchTool
         }
         private void Clear_Click(object sender, EventArgs e)
         {
-            view.RowFilter = string.Empty;
-            GridView.DataSource = view;
+
         }
         private void Load_Click(object sender, EventArgs e)
         {
@@ -349,5 +356,6 @@ namespace ICDcodeSearchTool
         {
             GridView.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
         }
+
     }
 }

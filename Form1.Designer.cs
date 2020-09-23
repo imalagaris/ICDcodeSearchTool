@@ -28,56 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GridView = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.combo5 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.txt11 = new System.Windows.Forms.TextBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.txt10 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pan5 = new System.Windows.Forms.Panel();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pan4 = new System.Windows.Forms.Panel();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.txt4 = new System.Windows.Forms.TextBox();
-            this.combo4 = new System.Windows.Forms.ComboBox();
-            this.pan3 = new System.Windows.Forms.Panel();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.txt3 = new System.Windows.Forms.TextBox();
-            this.combo3 = new System.Windows.Forms.ComboBox();
-            this.pan2 = new System.Windows.Forms.Panel();
-            this.txt2 = new System.Windows.Forms.TextBox();
+            this.IcdCriteria = new System.Windows.Forms.TableLayoutPanel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.combo1 = new System.Windows.Forms.ComboBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.combo2 = new System.Windows.Forms.ComboBox();
-            this.pan1 = new System.Windows.Forms.Panel();
-            this.txt1 = new System.Windows.Forms.TextBox();
-            this.combo1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pan6 = new System.Windows.Forms.Panel();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.combo3 = new System.Windows.Forms.ComboBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.combo4 = new System.Windows.Forms.ComboBox();
+            this.txt4 = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.DescCriteria = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.combo6 = new System.Windows.Forms.ComboBox();
             this.txt6 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pan9 = new System.Windows.Forms.Panel();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.txt9 = new System.Windows.Forms.TextBox();
-            this.combo9 = new System.Windows.Forms.ComboBox();
-            this.pan8 = new System.Windows.Forms.Panel();
-            this.txt8 = new System.Windows.Forms.TextBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.combo7 = new System.Windows.Forms.ComboBox();
+            this.txt7 = new System.Windows.Forms.TextBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.combo8 = new System.Windows.Forms.ComboBox();
-            this.pan7 = new System.Windows.Forms.Panel();
-            this.txt7 = new System.Windows.Forms.TextBox();
-            this.combo7 = new System.Windows.Forms.ComboBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.txt8 = new System.Windows.Forms.TextBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.combo9 = new System.Windows.Forms.ComboBox();
+            this.txt9 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -88,24 +83,19 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.pan5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.pan4.SuspendLayout();
-            this.pan3.SuspendLayout();
-            this.pan2.SuspendLayout();
-            this.pan1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.pan6.SuspendLayout();
-            this.pan9.SuspendLayout();
-            this.pan8.SuspendLayout();
-            this.pan7.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.IcdCriteria.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.DescCriteria.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -116,8 +106,8 @@
             this.GridView.AllowUserToDeleteRows = false;
             this.GridView.AllowUserToResizeColumns = false;
             this.GridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Gainsboro;
-            this.GridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Gainsboro;
+            this.GridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.GridView.BackgroundColor = System.Drawing.Color.Silver;
             this.GridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.GridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
@@ -140,7 +130,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(317, 14);
+            this.button1.Location = new System.Drawing.Point(279, 11);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(65, 30);
@@ -151,22 +141,25 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(28, 827);
+            this.button2.Location = new System.Drawing.Point(406, 827);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(60, 30);
             this.button2.TabIndex = 2;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.Clear_Click);
             // 
             // combo5
             // 
+            this.combo5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.combo5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo5.Enabled = false;
             this.combo5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo5.FormattingEnabled = true;
-            this.combo5.Location = new System.Drawing.Point(25, 4);
+            this.combo5.Location = new System.Drawing.Point(17, 3);
+            this.combo5.Margin = new System.Windows.Forms.Padding(1);
             this.combo5.Name = "combo5";
             this.combo5.Size = new System.Drawing.Size(108, 25);
             this.combo5.TabIndex = 6;
@@ -178,332 +171,358 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(835, 13);
+            this.panel1.Location = new System.Drawing.Point(825, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(417, 526);
+            this.panel1.Size = new System.Drawing.Size(407, 659);
             this.panel1.TabIndex = 8;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.groupBox2);
-            this.panel2.Controls.Add(this.groupBox4);
-            this.panel2.Controls.Add(this.groupBox3);
             this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.groupBox3);
+            this.panel2.Controls.Add(this.groupBox4);
+            this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Location = new System.Drawing.Point(36, 45);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(346, 463);
+            this.panel2.Size = new System.Drawing.Size(336, 578);
             this.panel2.TabIndex = 12;
             // 
-            // groupBox2
+            // groupBox1
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.White;
-            this.groupBox2.Controls.Add(this.checkBox10);
-            this.groupBox2.Controls.Add(this.txt11);
-            this.groupBox2.Controls.Add(this.txt10);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 389);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(336, 64);
-            this.groupBox2.TabIndex = 15;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "ICD10 range";
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.tableLayoutPanel4);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 431);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(326, 67);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ICD code range";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 5;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 69F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 244F));
+            this.tableLayoutPanel4.Controls.Add(this.txt11, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.checkBox10, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label9, 3, 0);
+            this.tableLayoutPanel4.Controls.Add(this.txt10, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label2, 1, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(6, 28);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(242, 30);
+            this.tableLayoutPanel4.TabIndex = 17;
+            // 
+            // txt11
+            // 
+            this.txt11.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt11.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txt11.Enabled = false;
+            this.txt11.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt11.Location = new System.Drawing.Point(166, 2);
+            this.txt11.Margin = new System.Windows.Forms.Padding(0, 1, 1, 1);
+            this.txt11.Name = "txt11";
+            this.txt11.Size = new System.Drawing.Size(68, 26);
+            this.txt11.TabIndex = 1;
             // 
             // checkBox10
             // 
+            this.checkBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(10, 30);
+            this.checkBox10.Location = new System.Drawing.Point(3, 10);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(15, 14);
             this.checkBox10.TabIndex = 15;
             this.checkBox10.UseVisualStyleBackColor = true;
             this.checkBox10.CheckedChanged += new System.EventHandler(this.CheckBox10_CheckedChanged);
             // 
-            // txt11
+            // label9
             // 
-            this.txt11.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.txt11.Enabled = false;
-            this.txt11.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt11.Location = new System.Drawing.Point(170, 25);
-            this.txt11.Name = "txt11";
-            this.txt11.Size = new System.Drawing.Size(68, 26);
-            this.txt11.TabIndex = 1;
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(139, 4);
+            this.label9.Margin = new System.Windows.Forms.Padding(1);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(24, 21);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "to";
             // 
             // txt10
             // 
+            this.txt10.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txt10.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txt10.Enabled = false;
             this.txt10.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt10.Location = new System.Drawing.Point(71, 25);
+            this.txt10.Location = new System.Drawing.Point(68, 2);
+            this.txt10.Margin = new System.Windows.Forms.Padding(0, 1, 1, 1);
             this.txt10.Name = "txt10";
             this.txt10.Size = new System.Drawing.Size(68, 26);
             this.txt10.TabIndex = 0;
             // 
-            // textBox5
+            // label2
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(33, 27);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(171, 22);
-            this.textBox5.TabIndex = 14;
-            this.textBox5.Text = "from                     to";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.White;
-            this.groupBox4.Controls.Add(this.pan5);
-            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(3, 3);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(336, 64);
-            this.groupBox4.TabIndex = 14;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Flag";
-            // 
-            // pan5
-            // 
-            this.pan5.Controls.Add(this.checkBox5);
-            this.pan5.Controls.Add(this.combo5);
-            this.pan5.Location = new System.Drawing.Point(6, 24);
-            this.pan5.Margin = new System.Windows.Forms.Padding(1);
-            this.pan5.Name = "pan5";
-            this.pan5.Size = new System.Drawing.Size(179, 34);
-            this.pan5.TabIndex = 15;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(4, 10);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 0;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.CheckBox5_CheckedChanged);
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(22, 4);
+            this.label2.Margin = new System.Windows.Forms.Padding(1);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 21);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "from";
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
-            this.groupBox3.Controls.Add(this.pan4);
-            this.groupBox3.Controls.Add(this.pan3);
-            this.groupBox3.Controls.Add(this.pan2);
-            this.groupBox3.Controls.Add(this.pan1);
+            this.groupBox3.Controls.Add(this.IcdCriteria);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 72);
+            this.groupBox3.Location = new System.Drawing.Point(2, 81);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(336, 144);
-            this.groupBox3.TabIndex = 13;
+            this.groupBox3.Size = new System.Drawing.Size(324, 159);
+            this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "ICD10";
+            this.groupBox3.Text = "ICD code";
             // 
-            // pan4
+            // IcdCriteria
             // 
-            this.pan4.Controls.Add(this.checkBox4);
-            this.pan4.Controls.Add(this.txt4);
-            this.pan4.Controls.Add(this.combo4);
-            this.pan4.Location = new System.Drawing.Point(6, 104);
-            this.pan4.Margin = new System.Windows.Forms.Padding(1);
-            this.pan4.Name = "pan4";
-            this.pan4.Size = new System.Drawing.Size(315, 30);
-            this.pan4.TabIndex = 15;
-            this.pan4.Visible = false;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(4, 8);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 0;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
-            // 
-            // txt4
-            // 
-            this.txt4.Enabled = false;
-            this.txt4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt4.Location = new System.Drawing.Point(214, 3);
-            this.txt4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt4.Name = "txt4";
-            this.txt4.Size = new System.Drawing.Size(79, 26);
-            this.txt4.TabIndex = 4;
-            // 
-            // combo4
-            // 
-            this.combo4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo4.Enabled = false;
-            this.combo4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo4.FormattingEnabled = true;
-            this.combo4.Location = new System.Drawing.Point(25, 4);
-            this.combo4.Name = "combo4";
-            this.combo4.Size = new System.Drawing.Size(183, 25);
-            this.combo4.TabIndex = 11;
-            // 
-            // pan3
-            // 
-            this.pan3.Controls.Add(this.checkBox3);
-            this.pan3.Controls.Add(this.txt3);
-            this.pan3.Controls.Add(this.combo3);
-            this.pan3.Location = new System.Drawing.Point(6, 76);
-            this.pan3.Margin = new System.Windows.Forms.Padding(1);
-            this.pan3.Name = "pan3";
-            this.pan3.Size = new System.Drawing.Size(315, 30);
-            this.pan3.TabIndex = 15;
-            this.pan3.Visible = false;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(4, 8);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 0;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
-            // 
-            // txt3
-            // 
-            this.txt3.Enabled = false;
-            this.txt3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt3.Location = new System.Drawing.Point(214, 3);
-            this.txt3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(79, 26);
-            this.txt3.TabIndex = 4;
-            // 
-            // combo3
-            // 
-            this.combo3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo3.Enabled = false;
-            this.combo3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo3.FormattingEnabled = true;
-            this.combo3.Location = new System.Drawing.Point(25, 4);
-            this.combo3.Name = "combo3";
-            this.combo3.Size = new System.Drawing.Size(183, 25);
-            this.combo3.TabIndex = 11;
-            // 
-            // pan2
-            // 
-            this.pan2.Controls.Add(this.txt2);
-            this.pan2.Controls.Add(this.checkBox2);
-            this.pan2.Controls.Add(this.combo2);
-            this.pan2.Location = new System.Drawing.Point(6, 48);
-            this.pan2.Margin = new System.Windows.Forms.Padding(1);
-            this.pan2.Name = "pan2";
-            this.pan2.Size = new System.Drawing.Size(315, 30);
-            this.pan2.TabIndex = 15;
-            this.pan2.Visible = false;
-            // 
-            // txt2
-            // 
-            this.txt2.Enabled = false;
-            this.txt2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt2.Location = new System.Drawing.Point(214, 3);
-            this.txt2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(79, 26);
-            this.txt2.TabIndex = 4;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(4, 8);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 9;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
-            // 
-            // combo2
-            // 
-            this.combo2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo2.Enabled = false;
-            this.combo2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo2.FormattingEnabled = true;
-            this.combo2.Location = new System.Drawing.Point(25, 4);
-            this.combo2.Name = "combo2";
-            this.combo2.Size = new System.Drawing.Size(183, 25);
-            this.combo2.TabIndex = 11;
-            // 
-            // pan1
-            // 
-            this.pan1.Controls.Add(this.txt1);
-            this.pan1.Controls.Add(this.combo1);
-            this.pan1.Controls.Add(this.checkBox1);
-            this.pan1.Location = new System.Drawing.Point(6, 20);
-            this.pan1.Margin = new System.Windows.Forms.Padding(1);
-            this.pan1.Name = "pan1";
-            this.pan1.Size = new System.Drawing.Size(315, 30);
-            this.pan1.TabIndex = 15;
-            // 
-            // txt1
-            // 
-            this.txt1.Enabled = false;
-            this.txt1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1.Location = new System.Drawing.Point(214, 2);
-            this.txt1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(79, 26);
-            this.txt1.TabIndex = 4;
-            // 
-            // combo1
-            // 
-            this.combo1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo1.DropDownWidth = 140;
-            this.combo1.Enabled = false;
-            this.combo1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo1.FormattingEnabled = true;
-            this.combo1.Location = new System.Drawing.Point(25, 3);
-            this.combo1.Name = "combo1";
-            this.combo1.Size = new System.Drawing.Size(183, 25);
-            this.combo1.TabIndex = 11;
+            this.IcdCriteria.ColumnCount = 3;
+            this.IcdCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
+            this.IcdCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
+            this.IcdCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 202F));
+            this.IcdCriteria.Controls.Add(this.checkBox1, 0, 0);
+            this.IcdCriteria.Controls.Add(this.combo1, 1, 0);
+            this.IcdCriteria.Controls.Add(this.txt1, 2, 0);
+            this.IcdCriteria.Controls.Add(this.checkBox2, 0, 1);
+            this.IcdCriteria.Controls.Add(this.combo2, 1, 1);
+            this.IcdCriteria.Controls.Add(this.txt2, 2, 1);
+            this.IcdCriteria.Controls.Add(this.checkBox3, 0, 2);
+            this.IcdCriteria.Controls.Add(this.combo3, 1, 2);
+            this.IcdCriteria.Controls.Add(this.txt3, 2, 2);
+            this.IcdCriteria.Controls.Add(this.checkBox4, 0, 3);
+            this.IcdCriteria.Controls.Add(this.combo4, 1, 3);
+            this.IcdCriteria.Controls.Add(this.txt4, 2, 3);
+            this.IcdCriteria.Location = new System.Drawing.Point(7, 28);
+            this.IcdCriteria.Name = "IcdCriteria";
+            this.IcdCriteria.RowCount = 4;
+            this.IcdCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.IcdCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.IcdCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.IcdCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.IcdCriteria.Size = new System.Drawing.Size(281, 120);
+            this.IcdCriteria.TabIndex = 18;
             // 
             // checkBox1
             // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(4, 9);
+            this.checkBox1.Location = new System.Drawing.Point(1, 10);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
-            // groupBox1
+            // combo1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.pan6);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.pan9);
-            this.groupBox1.Controls.Add(this.pan8);
-            this.groupBox1.Controls.Add(this.pan7);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(3, 221);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(336, 163);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Description";
+            this.combo1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo1.DropDownWidth = 140;
+            this.combo1.Enabled = false;
+            this.combo1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo1.FormattingEnabled = true;
+            this.combo1.Location = new System.Drawing.Point(17, 2);
+            this.combo1.Margin = new System.Windows.Forms.Padding(1);
+            this.combo1.Name = "combo1";
+            this.combo1.Size = new System.Drawing.Size(171, 25);
+            this.combo1.TabIndex = 11;
             // 
-            // pan6
+            // txt1
             // 
-            this.pan6.Controls.Add(this.checkBox6);
-            this.pan6.Controls.Add(this.combo6);
-            this.pan6.Controls.Add(this.txt6);
-            this.pan6.Location = new System.Drawing.Point(6, 29);
-            this.pan6.Margin = new System.Windows.Forms.Padding(1);
-            this.pan6.Name = "pan6";
-            this.pan6.Size = new System.Drawing.Size(315, 30);
-            this.pan6.TabIndex = 13;
+            this.txt1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt1.Enabled = false;
+            this.txt1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1.Location = new System.Drawing.Point(190, 1);
+            this.txt1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(79, 26);
+            this.txt1.TabIndex = 4;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(1, 40);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.TabIndex = 9;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
+            // 
+            // combo2
+            // 
+            this.combo2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo2.Enabled = false;
+            this.combo2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo2.FormattingEnabled = true;
+            this.combo2.Location = new System.Drawing.Point(17, 32);
+            this.combo2.Margin = new System.Windows.Forms.Padding(1);
+            this.combo2.Name = "combo2";
+            this.combo2.Size = new System.Drawing.Size(171, 25);
+            this.combo2.TabIndex = 11;
+            this.combo2.Visible = false;
+            // 
+            // txt2
+            // 
+            this.txt2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt2.Enabled = false;
+            this.txt2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt2.Location = new System.Drawing.Point(190, 31);
+            this.txt2.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(79, 26);
+            this.txt2.TabIndex = 4;
+            this.txt2.Visible = false;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(1, 70);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.TabIndex = 0;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Visible = false;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
+            // 
+            // combo3
+            // 
+            this.combo3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo3.Enabled = false;
+            this.combo3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo3.FormattingEnabled = true;
+            this.combo3.Location = new System.Drawing.Point(17, 62);
+            this.combo3.Margin = new System.Windows.Forms.Padding(1);
+            this.combo3.Name = "combo3";
+            this.combo3.Size = new System.Drawing.Size(171, 25);
+            this.combo3.TabIndex = 11;
+            this.combo3.Visible = false;
+            // 
+            // txt3
+            // 
+            this.txt3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt3.Enabled = false;
+            this.txt3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt3.Location = new System.Drawing.Point(190, 61);
+            this.txt3.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(79, 26);
+            this.txt3.TabIndex = 4;
+            this.txt3.Visible = false;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(1, 100);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.TabIndex = 0;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Visible = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
+            // 
+            // combo4
+            // 
+            this.combo4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo4.Enabled = false;
+            this.combo4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo4.FormattingEnabled = true;
+            this.combo4.Location = new System.Drawing.Point(17, 92);
+            this.combo4.Margin = new System.Windows.Forms.Padding(1, 1, 0, 1);
+            this.combo4.Name = "combo4";
+            this.combo4.Size = new System.Drawing.Size(171, 25);
+            this.combo4.TabIndex = 11;
+            this.combo4.Visible = false;
+            // 
+            // txt4
+            // 
+            this.txt4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt4.Enabled = false;
+            this.txt4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt4.Location = new System.Drawing.Point(190, 91);
+            this.txt4.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.txt4.Name = "txt4";
+            this.txt4.Size = new System.Drawing.Size(79, 26);
+            this.txt4.TabIndex = 4;
+            this.txt4.Visible = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.White;
+            this.groupBox4.Controls.Add(this.DescCriteria);
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(3, 246);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(323, 179);
+            this.groupBox4.TabIndex = 15;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Description";
+            // 
+            // DescCriteria
+            // 
+            this.DescCriteria.ColumnCount = 3;
+            this.DescCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.DescCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.DescCriteria.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.DescCriteria.Controls.Add(this.checkBox6, 0, 0);
+            this.DescCriteria.Controls.Add(this.combo6, 1, 0);
+            this.DescCriteria.Controls.Add(this.txt6, 2, 0);
+            this.DescCriteria.Controls.Add(this.checkBox7, 0, 1);
+            this.DescCriteria.Controls.Add(this.combo7, 1, 1);
+            this.DescCriteria.Controls.Add(this.txt7, 2, 1);
+            this.DescCriteria.Controls.Add(this.checkBox8, 0, 2);
+            this.DescCriteria.Controls.Add(this.combo8, 1, 2);
+            this.DescCriteria.Controls.Add(this.txt8, 2, 2);
+            this.DescCriteria.Controls.Add(this.checkBox9, 0, 3);
+            this.DescCriteria.Controls.Add(this.combo9, 1, 3);
+            this.DescCriteria.Controls.Add(this.txt9, 2, 3);
+            this.DescCriteria.Location = new System.Drawing.Point(6, 43);
+            this.DescCriteria.Name = "DescCriteria";
+            this.DescCriteria.RowCount = 4;
+            this.DescCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.DescCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.DescCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.DescCriteria.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.DescCriteria.Size = new System.Drawing.Size(281, 120);
+            this.DescCriteria.TabIndex = 17;
             // 
             // checkBox6
             // 
+            this.checkBox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(4, 9);
+            this.checkBox6.Location = new System.Drawing.Point(1, 10);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 0;
@@ -512,6 +531,7 @@
             // 
             // combo6
             // 
+            this.combo6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.combo6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo6.Enabled = false;
             this.combo6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -520,7 +540,7 @@
             this.combo6.Items.AddRange(new object[] {
             " ",
             "NOT"});
-            this.combo6.Location = new System.Drawing.Point(25, 3);
+            this.combo6.Location = new System.Drawing.Point(17, 2);
             this.combo6.Margin = new System.Windows.Forms.Padding(1);
             this.combo6.Name = "combo6";
             this.combo6.Size = new System.Drawing.Size(86, 25);
@@ -528,161 +548,178 @@
             // 
             // txt6
             // 
+            this.txt6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txt6.Enabled = false;
             this.txt6.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.txt6.Location = new System.Drawing.Point(119, 3);
-            this.txt6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt6.Location = new System.Drawing.Point(105, 2);
+            this.txt6.Margin = new System.Windows.Forms.Padding(1);
             this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(174, 25);
+            this.txt6.Size = new System.Drawing.Size(164, 25);
             this.txt6.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(121, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "contains";
-            // 
-            // pan9
-            // 
-            this.pan9.Controls.Add(this.checkBox9);
-            this.pan9.Controls.Add(this.txt9);
-            this.pan9.Controls.Add(this.combo9);
-            this.pan9.Location = new System.Drawing.Point(6, 123);
-            this.pan9.Margin = new System.Windows.Forms.Padding(1);
-            this.pan9.Name = "pan9";
-            this.pan9.Size = new System.Drawing.Size(315, 30);
-            this.pan9.TabIndex = 11;
-            this.pan9.Visible = false;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(4, 9);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 17;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.CheckBox9_CheckedChanged);
-            // 
-            // txt9
-            // 
-            this.txt9.Enabled = false;
-            this.txt9.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.txt9.Location = new System.Drawing.Point(119, 3);
-            this.txt9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt9.Name = "txt9";
-            this.txt9.Size = new System.Drawing.Size(174, 25);
-            this.txt9.TabIndex = 4;
-            // 
-            // combo9
-            // 
-            this.combo9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo9.Enabled = false;
-            this.combo9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo9.FormattingEnabled = true;
-            this.combo9.Location = new System.Drawing.Point(25, 3);
-            this.combo9.Margin = new System.Windows.Forms.Padding(1);
-            this.combo9.Name = "combo9";
-            this.combo9.Size = new System.Drawing.Size(86, 25);
-            this.combo9.TabIndex = 6;
-            // 
-            // pan8
-            // 
-            this.pan8.Controls.Add(this.txt8);
-            this.pan8.Controls.Add(this.checkBox8);
-            this.pan8.Controls.Add(this.combo8);
-            this.pan8.Location = new System.Drawing.Point(6, 92);
-            this.pan8.Margin = new System.Windows.Forms.Padding(1);
-            this.pan8.Name = "pan8";
-            this.pan8.Size = new System.Drawing.Size(315, 30);
-            this.pan8.TabIndex = 11;
-            this.pan8.Visible = false;
-            // 
-            // txt8
-            // 
-            this.txt8.Enabled = false;
-            this.txt8.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.txt8.Location = new System.Drawing.Point(119, 3);
-            this.txt8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt8.Name = "txt8";
-            this.txt8.Size = new System.Drawing.Size(174, 25);
-            this.txt8.TabIndex = 4;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(4, 9);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 16;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            this.checkBox8.CheckedChanged += new System.EventHandler(this.CheckBox8_CheckedChanged);
-            // 
-            // combo8
-            // 
-            this.combo8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo8.Enabled = false;
-            this.combo8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo8.FormattingEnabled = true;
-            this.combo8.Location = new System.Drawing.Point(25, 3);
-            this.combo8.Margin = new System.Windows.Forms.Padding(1);
-            this.combo8.Name = "combo8";
-            this.combo8.Size = new System.Drawing.Size(86, 25);
-            this.combo8.TabIndex = 6;
-            // 
-            // pan7
-            // 
-            this.pan7.Controls.Add(this.txt7);
-            this.pan7.Controls.Add(this.combo7);
-            this.pan7.Controls.Add(this.checkBox7);
-            this.pan7.Location = new System.Drawing.Point(6, 61);
-            this.pan7.Margin = new System.Windows.Forms.Padding(1);
-            this.pan7.Name = "pan7";
-            this.pan7.Size = new System.Drawing.Size(315, 30);
-            this.pan7.TabIndex = 11;
-            this.pan7.Visible = false;
-            // 
-            // txt7
-            // 
-            this.txt7.Enabled = false;
-            this.txt7.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.txt7.Location = new System.Drawing.Point(119, 3);
-            this.txt7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(174, 25);
-            this.txt7.TabIndex = 4;
-            // 
-            // combo7
-            // 
-            this.combo7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combo7.Enabled = false;
-            this.combo7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combo7.FormattingEnabled = true;
-            this.combo7.Location = new System.Drawing.Point(25, 3);
-            this.combo7.Margin = new System.Windows.Forms.Padding(1);
-            this.combo7.Name = "combo7";
-            this.combo7.Size = new System.Drawing.Size(86, 25);
-            this.combo7.TabIndex = 6;
             // 
             // checkBox7
             // 
+            this.checkBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(4, 9);
+            this.checkBox7.Location = new System.Drawing.Point(1, 40);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 15;
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.Visible = false;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.CheckBox7_CheckedChanged);
+            // 
+            // combo7
+            // 
+            this.combo7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo7.Enabled = false;
+            this.combo7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo7.FormattingEnabled = true;
+            this.combo7.Location = new System.Drawing.Point(17, 32);
+            this.combo7.Margin = new System.Windows.Forms.Padding(1);
+            this.combo7.Name = "combo7";
+            this.combo7.Size = new System.Drawing.Size(86, 25);
+            this.combo7.TabIndex = 6;
+            this.combo7.Visible = false;
+            // 
+            // txt7
+            // 
+            this.txt7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt7.Enabled = false;
+            this.txt7.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.txt7.Location = new System.Drawing.Point(105, 32);
+            this.txt7.Margin = new System.Windows.Forms.Padding(1);
+            this.txt7.Name = "txt7";
+            this.txt7.Size = new System.Drawing.Size(164, 25);
+            this.txt7.TabIndex = 4;
+            this.txt7.Visible = false;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(1, 70);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(15, 14);
+            this.checkBox8.TabIndex = 16;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.Visible = false;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.CheckBox8_CheckedChanged);
+            // 
+            // combo8
+            // 
+            this.combo8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo8.Enabled = false;
+            this.combo8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo8.FormattingEnabled = true;
+            this.combo8.Location = new System.Drawing.Point(17, 62);
+            this.combo8.Margin = new System.Windows.Forms.Padding(1);
+            this.combo8.Name = "combo8";
+            this.combo8.Size = new System.Drawing.Size(86, 25);
+            this.combo8.TabIndex = 6;
+            this.combo8.Visible = false;
+            // 
+            // txt8
+            // 
+            this.txt8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt8.Enabled = false;
+            this.txt8.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.txt8.Location = new System.Drawing.Point(105, 62);
+            this.txt8.Margin = new System.Windows.Forms.Padding(1);
+            this.txt8.Name = "txt8";
+            this.txt8.Size = new System.Drawing.Size(164, 25);
+            this.txt8.TabIndex = 4;
+            this.txt8.Visible = false;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(1, 100);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.TabIndex = 17;
+            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.Visible = false;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.CheckBox9_CheckedChanged);
+            // 
+            // combo9
+            // 
+            this.combo9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.combo9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combo9.Enabled = false;
+            this.combo9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo9.FormattingEnabled = true;
+            this.combo9.Location = new System.Drawing.Point(17, 92);
+            this.combo9.Margin = new System.Windows.Forms.Padding(1);
+            this.combo9.Name = "combo9";
+            this.combo9.Size = new System.Drawing.Size(86, 25);
+            this.combo9.TabIndex = 6;
+            this.combo9.Visible = false;
+            // 
+            // txt9
+            // 
+            this.txt9.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txt9.Enabled = false;
+            this.txt9.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.txt9.Location = new System.Drawing.Point(105, 92);
+            this.txt9.Margin = new System.Windows.Forms.Padding(1);
+            this.txt9.Name = "txt9";
+            this.txt9.Size = new System.Drawing.Size(164, 25);
+            this.txt9.TabIndex = 4;
+            this.txt9.Visible = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.Controls.Add(this.tableLayoutPanel1);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(3, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(474, 72);
+            this.groupBox2.TabIndex = 15;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Flag";
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 269F));
+            this.tableLayoutPanel1.Controls.Add(this.checkBox5, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.combo5, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 26);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(143, 33);
+            this.tableLayoutPanel1.TabIndex = 17;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox5.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.checkBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.Location = new System.Drawing.Point(1, 11);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(1, 5, 0, 1);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(15, 14);
+            this.checkBox5.TabIndex = 0;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.CheckBox5_CheckedChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 16);
+            this.label3.Location = new System.Drawing.Point(31, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 25);
             this.label3.TabIndex = 10;
@@ -755,12 +792,13 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(94, 827);
+            this.button6.Location = new System.Drawing.Point(484, 827);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 30);
             this.button6.TabIndex = 13;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Visible = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
@@ -775,7 +813,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(175, 827);
+            this.button4.Location = new System.Drawing.Point(30, 827);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(145, 30);
             this.button4.TabIndex = 11;
@@ -788,42 +826,41 @@
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Location = new System.Drawing.Point(23, 22);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1274, 901);
+            this.panel3.Size = new System.Drawing.Size(1254, 901);
             this.panel3.TabIndex = 12;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(3, 504);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(326, 66);
+            this.textBox2.TabIndex = 13;
+            this.textBox2.Text = "NOTES\r\n - Search is not case sensitive\r\n - ICD-10 codes with \"Flag = 0\" are heade" +
+    "r codes";
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(835, 829);
+            this.textBox1.Location = new System.Drawing.Point(847, 829);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(418, 49);
+            this.textBox1.Size = new System.Drawing.Size(385, 49);
             this.textBox1.TabIndex = 12;
             this.textBox1.Text = "ICD-9 and ICD-10 diagnosis and procedure codes search tool V0.2\r\nDeveloped by Ioa" +
     "nnis Malagaris\r\nData source: https://www.cms.gov/Medicare/Coding";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(873, 553);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(346, 66);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "NOTES\r\n - Search is  not case sensitive\r\n - ICD-10 codes with \"Flag = 0\" are head" +
-    "er codes";
             // 
             // Form1
             // 
@@ -831,42 +868,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1333, 945);
+            this.ClientSize = new System.Drawing.Size(1302, 945);
             this.Controls.Add(this.panel3);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.Text = "ICD10-CM search tool";
+            this.Text = "ICD codes search tool";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.pan5.ResumeLayout(false);
-            this.pan5.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.pan4.ResumeLayout(false);
-            this.pan4.PerformLayout();
-            this.pan3.ResumeLayout(false);
-            this.pan3.PerformLayout();
-            this.pan2.ResumeLayout(false);
-            this.pan2.PerformLayout();
-            this.pan1.ResumeLayout(false);
-            this.pan1.PerformLayout();
+            this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.pan6.ResumeLayout(false);
-            this.pan6.PerformLayout();
-            this.pan9.ResumeLayout(false);
-            this.pan9.PerformLayout();
-            this.pan8.ResumeLayout(false);
-            this.pan8.PerformLayout();
-            this.pan7.ResumeLayout(false);
-            this.pan7.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.IcdCriteria.ResumeLayout(false);
+            this.IcdCriteria.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.DescCriteria.ResumeLayout(false);
+            this.DescCriteria.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -886,37 +912,24 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox txt6;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.ComboBox combo1;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Panel pan7;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.TextBox txt7;
         private System.Windows.Forms.ComboBox combo7;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel pan8;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.TextBox txt8;
         private System.Windows.Forms.ComboBox combo8;
-        private System.Windows.Forms.Panel pan6;
         private System.Windows.Forms.ComboBox combo6;
-        private System.Windows.Forms.Panel pan9;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.TextBox txt9;
         private System.Windows.Forms.ComboBox combo9;
-        private System.Windows.Forms.Panel pan5;
-        private System.Windows.Forms.Panel pan4;
         private System.Windows.Forms.TextBox txt4;
         private System.Windows.Forms.ComboBox combo4;
-        private System.Windows.Forms.Panel pan3;
         private System.Windows.Forms.TextBox txt3;
         private System.Windows.Forms.ComboBox combo3;
-        private System.Windows.Forms.Panel pan2;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.ComboBox combo2;
-        private System.Windows.Forms.Panel pan1;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.CheckBox checkBox9;
@@ -928,7 +941,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txt11;
         private System.Windows.Forms.TextBox txt10;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.CheckBox checkBox10;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
@@ -937,6 +949,15 @@
         private System.Windows.Forms.DataGridView GridView;
         private System.Windows.Forms.ComboBox combo10;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TableLayoutPanel DescCriteria;
+        private System.Windows.Forms.TableLayoutPanel IcdCriteria;
     }
 }
 
