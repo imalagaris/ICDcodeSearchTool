@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -91,13 +90,7 @@ namespace ICDcodeSearchTool
             groupBox2.BackColor = Color.Gainsboro;
 
         }
-        private void SetRowNumber(DataGridView dgv)
-        {
-            foreach (DataGridViewRow row in dgv.Rows)
-            {
-                row.Cells["Sr"].Value = row.Index + 1;
-            }
-        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
         }
@@ -242,16 +235,7 @@ namespace ICDcodeSearchTool
             }
 
         }
-        private void DisableTxt(System.Windows.Forms.TextBox txtbox)
-        {
-            txtbox.Text = string.Empty;
-            txtbox.Enabled = false;
-        }
-        private void DisableCombo(System.Windows.Forms.ComboBox comboBox)
-        {
-            comboBox.SelectedIndex = 0;
-            comboBox.Enabled = false;
-        }
+
         private void Apply_Click(object sender, EventArgs e)
         {
             if (view == null) 
