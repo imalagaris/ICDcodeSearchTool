@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GridView = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -42,6 +42,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txt10 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.IcdCriteria = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -83,7 +84,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).BeginInit();
             this.panel1.SuspendLayout();
@@ -106,8 +106,8 @@
             this.GridView.AllowUserToDeleteRows = false;
             this.GridView.AllowUserToResizeColumns = false;
             this.GridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Gainsboro;
-            this.GridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Gainsboro;
+            this.GridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.GridView.BackgroundColor = System.Drawing.Color.Silver;
             this.GridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.GridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
@@ -130,7 +130,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(279, 11);
+            this.button1.Location = new System.Drawing.Point(307, 11);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(65, 30);
@@ -158,7 +158,7 @@
             this.combo5.Enabled = false;
             this.combo5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo5.FormattingEnabled = true;
-            this.combo5.Location = new System.Drawing.Point(17, 3);
+            this.combo5.Location = new System.Drawing.Point(17, 4);
             this.combo5.Margin = new System.Windows.Forms.Padding(1);
             this.combo5.Name = "combo5";
             this.combo5.Size = new System.Drawing.Size(108, 25);
@@ -282,6 +282,20 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "from";
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(3, 504);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(326, 66);
+            this.textBox2.TabIndex = 13;
+            this.textBox2.Text = "NOTES\r\n - Search is not case sensitive\r\n - ICD-10 codes with \"Flag = 0\" are heade" +
+    "r codes";
+            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
@@ -342,7 +356,7 @@
             this.combo1.Enabled = false;
             this.combo1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo1.FormattingEnabled = true;
-            this.combo1.Location = new System.Drawing.Point(17, 2);
+            this.combo1.Location = new System.Drawing.Point(17, 1);
             this.combo1.Margin = new System.Windows.Forms.Padding(1);
             this.combo1.Name = "combo1";
             this.combo1.Size = new System.Drawing.Size(171, 25);
@@ -379,7 +393,7 @@
             this.combo2.Enabled = false;
             this.combo2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo2.FormattingEnabled = true;
-            this.combo2.Location = new System.Drawing.Point(17, 32);
+            this.combo2.Location = new System.Drawing.Point(17, 31);
             this.combo2.Margin = new System.Windows.Forms.Padding(1);
             this.combo2.Name = "combo2";
             this.combo2.Size = new System.Drawing.Size(171, 25);
@@ -418,7 +432,7 @@
             this.combo3.Enabled = false;
             this.combo3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo3.FormattingEnabled = true;
-            this.combo3.Location = new System.Drawing.Point(17, 62);
+            this.combo3.Location = new System.Drawing.Point(17, 61);
             this.combo3.Margin = new System.Windows.Forms.Padding(1);
             this.combo3.Name = "combo3";
             this.combo3.Size = new System.Drawing.Size(171, 25);
@@ -457,7 +471,7 @@
             this.combo4.Enabled = false;
             this.combo4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo4.FormattingEnabled = true;
-            this.combo4.Location = new System.Drawing.Point(17, 92);
+            this.combo4.Location = new System.Drawing.Point(17, 91);
             this.combo4.Margin = new System.Windows.Forms.Padding(1, 1, 0, 1);
             this.combo4.Name = "combo4";
             this.combo4.Size = new System.Drawing.Size(171, 25);
@@ -540,7 +554,7 @@
             this.combo6.Items.AddRange(new object[] {
             " ",
             "NOT"});
-            this.combo6.Location = new System.Drawing.Point(17, 2);
+            this.combo6.Location = new System.Drawing.Point(17, 1);
             this.combo6.Margin = new System.Windows.Forms.Padding(1);
             this.combo6.Name = "combo6";
             this.combo6.Size = new System.Drawing.Size(86, 25);
@@ -577,7 +591,7 @@
             this.combo7.Enabled = false;
             this.combo7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo7.FormattingEnabled = true;
-            this.combo7.Location = new System.Drawing.Point(17, 32);
+            this.combo7.Location = new System.Drawing.Point(17, 31);
             this.combo7.Margin = new System.Windows.Forms.Padding(1);
             this.combo7.Name = "combo7";
             this.combo7.Size = new System.Drawing.Size(86, 25);
@@ -616,7 +630,7 @@
             this.combo8.Enabled = false;
             this.combo8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo8.FormattingEnabled = true;
-            this.combo8.Location = new System.Drawing.Point(17, 62);
+            this.combo8.Location = new System.Drawing.Point(17, 61);
             this.combo8.Margin = new System.Windows.Forms.Padding(1);
             this.combo8.Name = "combo8";
             this.combo8.Size = new System.Drawing.Size(86, 25);
@@ -655,7 +669,7 @@
             this.combo9.Enabled = false;
             this.combo9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo9.FormattingEnabled = true;
-            this.combo9.Location = new System.Drawing.Point(17, 92);
+            this.combo9.Location = new System.Drawing.Point(17, 91);
             this.combo9.Margin = new System.Windows.Forms.Padding(1);
             this.combo9.Name = "combo9";
             this.combo9.Size = new System.Drawing.Size(86, 25);
@@ -756,13 +770,13 @@
             // combo10
             // 
             this.combo10.BackColor = System.Drawing.Color.White;
+            this.combo10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo10.Font = new System.Drawing.Font("Consolas", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo10.FormattingEnabled = true;
-            this.combo10.Location = new System.Drawing.Point(335, 10);
+            this.combo10.Location = new System.Drawing.Point(335, 12);
             this.combo10.Name = "combo10";
             this.combo10.Size = new System.Drawing.Size(157, 26);
             this.combo10.TabIndex = 16;
-            this.combo10.Text = "Choose file";
             // 
             // label4
             // 
@@ -832,20 +846,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1254, 901);
             this.panel3.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(3, 504);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(326, 66);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "NOTES\r\n - Search is not case sensitive\r\n - ICD-10 codes with \"Flag = 0\" are heade" +
-    "r codes";
             // 
             // textBox1
             // 

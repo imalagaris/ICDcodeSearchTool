@@ -65,9 +65,9 @@ namespace ICDcodeSearchTool {
             Data = new List<ChooseFile>()
             {
                 new ChooseFile() {Val = "", Name = "   Choose file"},
-                new ChooseFile() {Val = @"Data\icd10cm_order_2021.txt",  Name = "ICD-10-CM  2021"},
+                new ChooseFile() {Val = @"Data\icd10cm_order_2021.txt",  Name = "ICD-10-CM 2021"},
                 new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-10-PCS 2021"},
-                new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-9-CM  2014"},
+                new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-9-CM 2014"},
                 new ChooseFile() {Val = @"Data\icd10pcs_order_2021.txt", Name = "ICD-9-PCS 2014"}
             };
         }
