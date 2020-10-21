@@ -8,3 +8,13 @@ C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.c
 C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.csproj.CoreCompileInputs.cache
 C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.exe
 C:\Users\iomalaga\source\repos\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.pdb
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\bin\Release\ICDcodeSearchTool.exe.config
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\bin\Release\ICDcodeSearchTool.exe
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\bin\Release\ICDcodeSearchTool.pdb
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.csprojAssemblyReference.cache
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.Form1.resources
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.Properties.Resources.resources
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.csproj.GenerateResource.cache
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.csproj.CoreCompileInputs.cache
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.exe
+C:\Users\Ioannis\Documents\GitHub\ICDcodeSearchTool\obj\Release\ICDcodeSearchTool.pdb

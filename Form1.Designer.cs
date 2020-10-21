@@ -158,7 +158,7 @@
             this.combo5.Enabled = false;
             this.combo5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo5.FormattingEnabled = true;
-            this.combo5.Location = new System.Drawing.Point(17, 4);
+            this.combo5.Location = new System.Drawing.Point(17, 3);
             this.combo5.Margin = new System.Windows.Forms.Padding(1);
             this.combo5.Name = "combo5";
             this.combo5.Size = new System.Drawing.Size(108, 25);
@@ -356,7 +356,7 @@
             this.combo1.Enabled = false;
             this.combo1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo1.FormattingEnabled = true;
-            this.combo1.Location = new System.Drawing.Point(17, 1);
+            this.combo1.Location = new System.Drawing.Point(17, 2);
             this.combo1.Margin = new System.Windows.Forms.Padding(1);
             this.combo1.Name = "combo1";
             this.combo1.Size = new System.Drawing.Size(171, 25);
@@ -393,7 +393,7 @@
             this.combo2.Enabled = false;
             this.combo2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo2.FormattingEnabled = true;
-            this.combo2.Location = new System.Drawing.Point(17, 31);
+            this.combo2.Location = new System.Drawing.Point(17, 32);
             this.combo2.Margin = new System.Windows.Forms.Padding(1);
             this.combo2.Name = "combo2";
             this.combo2.Size = new System.Drawing.Size(171, 25);
@@ -432,7 +432,7 @@
             this.combo3.Enabled = false;
             this.combo3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo3.FormattingEnabled = true;
-            this.combo3.Location = new System.Drawing.Point(17, 61);
+            this.combo3.Location = new System.Drawing.Point(17, 62);
             this.combo3.Margin = new System.Windows.Forms.Padding(1);
             this.combo3.Name = "combo3";
             this.combo3.Size = new System.Drawing.Size(171, 25);
@@ -471,7 +471,7 @@
             this.combo4.Enabled = false;
             this.combo4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo4.FormattingEnabled = true;
-            this.combo4.Location = new System.Drawing.Point(17, 91);
+            this.combo4.Location = new System.Drawing.Point(17, 92);
             this.combo4.Margin = new System.Windows.Forms.Padding(1, 1, 0, 1);
             this.combo4.Name = "combo4";
             this.combo4.Size = new System.Drawing.Size(171, 25);
@@ -554,7 +554,7 @@
             this.combo6.Items.AddRange(new object[] {
             " ",
             "NOT"});
-            this.combo6.Location = new System.Drawing.Point(17, 1);
+            this.combo6.Location = new System.Drawing.Point(17, 2);
             this.combo6.Margin = new System.Windows.Forms.Padding(1);
             this.combo6.Name = "combo6";
             this.combo6.Size = new System.Drawing.Size(86, 25);
@@ -591,7 +591,7 @@
             this.combo7.Enabled = false;
             this.combo7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo7.FormattingEnabled = true;
-            this.combo7.Location = new System.Drawing.Point(17, 31);
+            this.combo7.Location = new System.Drawing.Point(17, 32);
             this.combo7.Margin = new System.Windows.Forms.Padding(1);
             this.combo7.Name = "combo7";
             this.combo7.Size = new System.Drawing.Size(86, 25);
@@ -630,7 +630,7 @@
             this.combo8.Enabled = false;
             this.combo8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo8.FormattingEnabled = true;
-            this.combo8.Location = new System.Drawing.Point(17, 61);
+            this.combo8.Location = new System.Drawing.Point(17, 62);
             this.combo8.Margin = new System.Windows.Forms.Padding(1);
             this.combo8.Name = "combo8";
             this.combo8.Size = new System.Drawing.Size(86, 25);
@@ -669,7 +669,7 @@
             this.combo9.Enabled = false;
             this.combo9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo9.FormattingEnabled = true;
-            this.combo9.Location = new System.Drawing.Point(17, 91);
+            this.combo9.Location = new System.Drawing.Point(17, 92);
             this.combo9.Margin = new System.Windows.Forms.Padding(1);
             this.combo9.Name = "combo9";
             this.combo9.Size = new System.Drawing.Size(86, 25);
